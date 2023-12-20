@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Test Page</title>
+<meta name="description" content="This is for the cat lovers of the world">
+<meta name="keywords" content="cat agenda pokemon">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css_file.css" rel="stylesheet" type="text/css" media="all">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<style>
+#meowth {
+  width: 17%;
+  padding: 5px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 2px;
+}
+    body {
+        background-color: rgb(255, 255, 255);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h1 {
+        width: 55%;
+        text-decoration: underline;
+        color: #4583c2;
+        background-color: rgb(197, 252, 252);
+        font-size: 3em;
+        padding: 10px;
+        margin: 30px;
+        border: orange;
+        text-align: center;
+    }
+    h3 {
+        text-decoration: underline;
+        color: #2f9c3f;
+    }
+    .bold {
+        font-weight: bold;
+    }
+    .centre {
+      text-align: center;
+    }
+</style>
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Test Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<h1>Who's that catamon?</h1>
+<img src="https://tse2.mm.bing.net/th?id=OIP.SkJFNDGhhkPPVgYwTPdJ1QHaHg&pid=Api" alt="A cream cat on its back legs with a gold coin on its head">
+<a href="https://tse2.mm.bing.net/th?id=OIP.SkJFNDGhhkPPVgYwTPdJ1QHaHg&pid=Api"><sub><u>source</u></sub></a>
+<p><button id="meowthButton">Reveal Answer</button></p>
+
+<div id="meowth" style = "display:none">
+    Meowth, that's right
+</div>
+
+<h2>CATS!</h2>
+<p>are clearly the 1<sup>st</sup> and only thing the <span class="bold">internet</span> cares about so we should make this website for them</p>
+<p style="font-size: 20px; color:#1F9AFE;">
+  <a href="C:\Users\e639746\OneDrive - UCB\Documents\DIANE Team\webdev\html\workshop\test2.html">List of cat Pok&#233mon</a>
+  </p>
+<h2>Who is the <i>enmeny?</i></h2>
+<h3>Dogs</h3>
+<p>Dogs can be cute and loyal but don't let them trick you that is only a ploy to get at your food.</p>
+<hr>
+<p>character belongs to <a href="https://corporate.pokemon.com/en-gb/" target="_blank" title="Pok&#233mon Corprate Site"><span class="bold">The Pok&#233mon Company</span></p>
+<p><a href="mailto:ryan@nowhere.net">Email me</a> click the link
+  to send email to an address that doesn't exist.</p>
+  <p><a href="mailto:ryan@nowhere.net?subject=An important message">Email me</a>
+    Email with the subject predefined..</p>
+    <p><a href="mailto:ryan@nowhere.net?subject=An important message&body=Not really that important">Email me</a>
+    Email with the subject and body predefined.</p>
+    </div>
+<script type="text/javascript">
+    document.getElementById("meowthButton").addEventListener("click", function() { let x = document.getElementById("meowth");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          };  
+    })
+ </script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+
+ </script>
+</body>
+</html>
